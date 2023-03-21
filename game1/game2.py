@@ -49,13 +49,13 @@ pygame.mouse.set_visible(False)
 font = pygame.font.SysFont(None, 30)
 
 
-gameOverSound = pygame.mixer.Sound('rot.wav')
-pygame.mixer.music.load('Crazy2.mid')
+gameOverSound = pygame.mixer.Sound('lose.wav')
+pygame.mixer.music.load('prog.mid')
 
 
-playerImage = pygame.image.load('вадим1.jpg')
+playerImage = pygame.image.load('igrok.jpg')
 playerRect = playerImage.get_rect()
-baddieImage = pygame.image.load('эльпримо.png')
+baddieImage = pygame.image.load('anvil.jpg')
 
 
 drawText('Добро пожаловать на сервер Зомби', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
