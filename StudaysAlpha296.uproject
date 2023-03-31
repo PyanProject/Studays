@@ -6,11 +6,11 @@
 	"Plugins": [
 		{
 			"Name": "XRVisualization",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Narrative",
-			"Enabled": true
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
