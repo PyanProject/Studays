@@ -11,6 +11,14 @@
 		{
 			"Name": "Narrative",
 			"Enabled": true
+		},
+		{
+			"Name": "SequencerScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
